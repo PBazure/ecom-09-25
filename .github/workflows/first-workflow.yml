@@ -2,7 +2,7 @@ name: first workflow
 on: push
 jobs:
   firstjob:
-    runs-on: ubuntu 
+    runs-on: ubuntu-latest
     steps:
     - name: greet
       run: echo "Hello"
