@@ -1,0 +1,9 @@
+name: first workflow
+on: push
+jobs:
+    jobone:
+      runs-on: ubuntu
+        steps:
+          name: greet
+          run: echo "Hello"
+          
