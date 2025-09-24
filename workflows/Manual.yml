@@ -1,0 +1,9 @@
+name: Manual_trigger
+on: workflow_dispatch
+jobs:
+  ManualJob:
+  runs-on: windows-latest
+steps:
+ - name: Greet
+   runs: echo "Hello"
+ - name: echo " World"
