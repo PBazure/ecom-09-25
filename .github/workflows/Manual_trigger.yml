@@ -1,0 +1,10 @@
+name: Manaul
+on: workflow_dispatch
+jobs:
+  jobsmanual:
+    runs-on: windows-latest
+    steps:
+      - name: greet
+        run: echo "Hello"
+      - name: devops
+        run: echo "Welcome"
