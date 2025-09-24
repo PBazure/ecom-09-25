@@ -1,0 +1,11 @@
+name: Manual Trigger
+on: workflow_dispatch # We get to know its manual trigger.
+Jobs:
+  jobManual:
+  runs-on: Windows-latest
+steps:
+- name: greet
+  run: echo "Welcome github actions"
+- name: welcome
+  run: echo "Welcome to devops"
+ 
